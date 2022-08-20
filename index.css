@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  transition: background-color 0.5s linear;
+}
+main {
+  display: grid;
+  place-items: center;
+}
+.section-center {
+  display: grid;
+  max-width: 38rem;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.heading h1 {
+  font-size: 2rem;
+}
+.toggle-btn {
+  align-self: center;
+  padding: 0.3rem;
+  border-radius: 10%;
+  font-size: medium;
+  border: none;
+  background-color: #d23669;
+  color: white;
+  cursor: pointer;
+}
+
+.sub-section {
+  margin: 5rem 0;
+}
+.sub-section p {
+  margin-top: 0;
+  font-style: italic;
+}
+.sub-section h2 {
+  margin-bottom: 0;
+}
+.items h2 {
+  color: #d23669;
+  text-transform: uppercase;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s linear;
+}
