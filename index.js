@@ -53,7 +53,6 @@ window.addEventListener(`DOMContentLoaded`, function () {
           </div>
         </section>`;
   });
-  displayView = displayView.join(``);
-  console.log(displayView);
-  sectionItems.innerHTML = displayView;
+  displayViews = displayView.join(``);
+  sectionItems.innerHTML = displayViews;
 });
