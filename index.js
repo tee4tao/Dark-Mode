@@ -37,12 +37,12 @@ let items = [
 let toggleBtn = document.querySelector(`.toggle-btn`);
 let sectionCenter = document.querySelector(`.section-center`);
 let sectionItems = document.querySelector(`.items`);
-toggleBtn.addEventListener(`click`, function () {
+toggleBtn.addEventListener(`click`, () => {
   document.body.classList.toggle(`dark-theme`);
 });
 
 window.addEventListener(`DOMContentLoaded`, function () {
-  let displayView = items.map(function (item) {
+  let displayView = items.map((item) => {
     return `<section class="items">
           <div class="sub-section">
             <h2>${item.heading}</h2>
